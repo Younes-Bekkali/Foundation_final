@@ -124,7 +124,7 @@ end
 # gem 'chuck_norris'
 # gem 'open-weather'
 
-
+gem 'newrelic_rpm'
 
 gem 'faraday'
 gem "mime-types", "~> 2.99", :platforms => [:ruby_19, :jruby]
