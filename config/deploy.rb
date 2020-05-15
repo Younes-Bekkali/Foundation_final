@@ -4,7 +4,7 @@ lock "~> 3.13.0"
 before 'deploy', 'rvm1:install:ruby'
 set :rvm_map_bins, [ 'rake', 'gem', 'bundle', 'ruby', 'puma', 'pumactl' ]
 set :application, "younesbekkali"
-set :repo_url, "https://github.com/yobek-lab/Rocket_Elevator_Foundation_2.git"
+set :repo_url, "https://github.com/Younes-Bekkali/Foundation_final.git"
 # Changed for the Foundation with my git and app
 # set :application, "Ukeme"
 # set :repo_url, "https://github.com/kembasy/Rocket_Elevators_API"
