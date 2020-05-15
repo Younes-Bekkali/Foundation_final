@@ -116,18 +116,18 @@ class InterventionsController < ApplicationController
       
       #  Zendesk API  
       # Create a personalized ticket 
-      ZendeskAPI::Ticket.create!(@client, 
-        :subject => "Intervention ticket from employee ##{@intervention.author} - #{author_firstname} #{author_lastname} - Rocket Elevators",
-        :requester => {"name": @current_employee.email},
-        :comment => { :value => "Employee #{@intervention.author} (#{author_firstname} #{author_lastname}) working for customer #{@intervention.customer_id} (#{@customer_company}) on building  #{@intervention.building_id}, battery #{@intervention.battery_id}, column #{@intervention.column_id} and elevator #{@intervention.elevator_id} has dispatched an employee (#{@intervention.employee_id}) to answer the present ticket.
+    #   ZendeskAPI::Ticket.create!(@client, 
+    #     :subject => "Intervention ticket from employee ##{@intervention.author} - #{author_firstname} #{author_lastname} - Rocket Elevators",
+    #     :requester => {"name": @current_employee.email},
+    #     :comment => { :value => "Employee #{@intervention.author} (#{author_firstname} #{author_lastname}) working for customer #{@intervention.customer_id} (#{@customer_company}) on building  #{@intervention.building_id}, battery #{@intervention.battery_id}, column #{@intervention.column_id} and elevator #{@intervention.elevator_id} has dispatched an employee (#{@intervention.employee_id}) to answer the present ticket.
 
-        Here is the report of the intervention : 
-        #{@intervention.report}  
-        #{added_details}
-        "}, 
-        :submitter_id => @intervention.author,
-        :type => "problem",
-        :priority => "urgent")
+    #     Here is the report of the intervention : 
+    #     #{@intervention.report}  
+    #     #{added_details}
+    #     "}, 
+    #     :submitter_id => @intervention.author,
+    #     :type => "problem",
+    #     :priority => "urgent")
         
     #END Zendesk API session 
   
