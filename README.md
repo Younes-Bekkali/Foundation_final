@@ -15,7 +15,7 @@ DEPLOYMENT
 
  - GraphQL API: https://rocket-elevs-graphql.herokuapp.com/graphql 
 
-** Deploying the Rails Application with Docker: (working on it)
+** Deploying the Rails Application with Docker: (coming soon-working on it)
 
 MONITORING
 
