@@ -1,11 +1,32 @@
-# <b>Foundation week:Rebuild its information system in Individual mode</b>
-# <b>A .NET Core API deployed on Microsoft Azure</b>
-# <b>Intervations form with the Zendex API feature added</b>
+# <b>Final Project<b>
+** Younes Bekkali **
 
+**Week 14- Foundation week ** 
+
+DEPLOYMENT
+
+- The Rocket-Elevator-Foundation app is deployed on AWS LightSail and EC2 server with NGINX webserver and PUMA module,  databases also got place on AWS LightSail server and AWS RDS. 
+
+website URL : http://www.rocketelvators.com/
+Database endpoint: ls-4d9377efbedd95cc8b2ca3057d15177ab397f7c6.crnkd950fiaq.ca-central-1.rds.amazonaws.com
+(credetials can be sent if needed)
+
+- Deploying the Rails Application with Docker: (working on it)
+
+MONITORING
+
+- New Relic APM: get a complete picture by combining key metrics of web applications and interaction with APIs and web services, databases, etc. to optimize performance and ensure that applications are always available and operational.
+(Access permission was sent by email)
+
+- Google Analytics: allows developers and operators from all teams to understand the traffic that circulates on the site and measure the impact of the implementation choices that have been made.
+ (Access permission was sent by email)
+ 
 **Week 9 - Foundation week ** 
 
 ** Younes Bekkali **
-
+<b>Foundation week:Rebuild its information system in Individual mode</b>
+<b>A .NET Core API deployed on Microsoft Azure</b>
+<b>Intervations form with the Zendex API feature added</b>
 1) a new interventions table is added to the mysql database, database name: YounesDeploy
 2) an intervention form is added to the web site:
  - the website adress: http://rocketelvators.com
