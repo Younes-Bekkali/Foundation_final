@@ -1,7 +1,7 @@
 # <b>Final Project<b>
 ** Younes Bekkali **
 
-**Week 14- Foundation week ** 
+**Week 14- Foundation Final Project ** 
 
 DEPLOYMENT
 
