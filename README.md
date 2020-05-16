@@ -8,6 +8,7 @@ DEPLOYMENT
 - The Rocket-Elevator-Foundation app is deployed on AWS LightSail and EC2 server with NGINX webserver and PUMA module,  databases also got place on AWS LightSail server and AWS RDS. 
 
 website URL : http://www.rocketelvators.com/
+
 Database endpoint: ls-4d9377efbedd95cc8b2ca3057d15177ab397f7c6.crnkd950fiaq.ca-central-1.rds.amazonaws.com
 (credetials can be sent if needed)
 
